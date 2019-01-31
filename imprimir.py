@@ -23,6 +23,7 @@ for letra in palabra:
 if len(maximo) == 0:
 	exit()
 
+print()
 
 for otro in range(0,8):
 	imp = ""
@@ -39,3 +40,5 @@ for otro in range(0,8):
 				imp +="  "
 	print(imp)
 	time.sleep(0.1)
+
+print()
